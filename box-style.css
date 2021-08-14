@@ -1,0 +1,146 @@
+a::before {}
+
+#vl {
+    margin-top: 2px;
+    margin-left: 90px;
+    border-left: 3px black;
+    height: 50px;
+}
+
+#box1 {
+    margin: auto;
+    width: 1240px;
+    height: 422px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#cv-box {
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0px;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 31px;
+    border-radius: 17px;
+}
+
+.button:hover {
+    background-color: rgb(58, 58, 58);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 31px;
+    border-radius: 17px;
+}
+
+#me-box {
+    margin: auto;
+    width: 1240px;
+    height: 513px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#left-box {
+    margin-left: 100px;
+    margin-top: 75px;
+    width: 588px;
+    height: 917px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#right-box {
+    float: right;
+    margin-right: 100px;
+    margin-top: -917px;
+    width: 588px;
+    height: 917px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#job-box {
+    margin: auto;
+    width: 1240px;
+    height: 372px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#insta-box {
+    margin-left: 100px;
+    margin-top: 75px;
+    width: 338px;
+    height: 449px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#insta-box:hover {
+    background-color: rgb(247, 0, 255);
+}
+
+#link-box {
+    margin-left: 100px;
+    margin-top: 75px;
+    width: 338px;
+    height: 449px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#dribbble-box {
+    margin-left: 100px;
+    margin-top: 75px;
+    width: 338px;
+    height: 449px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+@font-face {
+    font-family: handly;
+    src: url(bradley_hand_itc_tt_bold.ttf);
+}
+
+#email-box {
+    margin: auto;
+    width: 589px;
+    height: 141px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
