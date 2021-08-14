@@ -99,7 +99,7 @@
 }
 
 #insta-box:hover {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(218, 218, 218);
 }
 
 #link-box {
@@ -112,7 +112,7 @@
     box-shadow: 0px 0px 36px -20px black;
 }
 #link-box:hover {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(218, 218, 218);
 }
 
 #dribbble-box {
@@ -125,7 +125,7 @@
     box-shadow: 0px 0px 36px -20px black;
 }
 #dribbble-box:hover {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(218, 218, 218);
 }
 
 @font-face {
