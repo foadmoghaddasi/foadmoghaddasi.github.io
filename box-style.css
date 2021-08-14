@@ -1,5 +1,3 @@
-a::before {}
-
 #vl {
     margin-top: 2px;
     margin-left: 90px;
@@ -147,6 +145,5 @@ a::before {}
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
   }
 }
