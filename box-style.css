@@ -101,7 +101,7 @@ a::before {}
 }
 
 #insta-box:hover {
-    background-color: rgb(247, 0, 255);
+    background-color: rgb(179, 179, 179);
 }
 
 #link-box {
@@ -113,6 +113,9 @@ a::before {}
     border-radius: 40px;
     box-shadow: 0px 0px 36px -20px black;
 }
+#link-box:hover {
+    background-color: rgb(179, 179, 179);
+}
 
 #dribbble-box {
     margin-left: 100px;
@@ -122,6 +125,9 @@ a::before {}
     background-color: white;
     border-radius: 40px;
     box-shadow: 0px 0px 36px -20px black;
+}
+#dribbble-box:hover {
+    background-color: rgb(179, 179, 179);
 }
 
 @font-face {
