@@ -7,8 +7,8 @@
     margin-top: 50px;
     margin-left: 100px;
     font-family: Sans-serif;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 500px;
 }
 
 /*index-budy*/
@@ -385,7 +385,7 @@ button {
     /*home*/
     #foad-title {
         margin-top: -70px;
-        margin-left: 37px;
+        margin-left: auto;
     }
     .skills {
         flex-direction: column;
@@ -396,11 +396,11 @@ button {
     .menu {
         margin-right: auto;
         margin-top: 150px;
-        margin-left: -180px;
+        margin-left: -151px;
         display: flex;
     }
     .menu-item {
-        margin-left: 10px;
+        margin-left: 1px;
         display: inline-block;
         padding-left: 30px;
     }
