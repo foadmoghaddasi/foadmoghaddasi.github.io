@@ -349,9 +349,8 @@ button {
     }
     .menu {
         margin-top: 150px;
-        margin-left: -170px;
+        margin-left: -190px;
         display: flex;
-        align-items: center;
     }
     .menu-item {
         margin-left: 10px;
