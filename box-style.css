@@ -1,3 +1,155 @@
+@font-face {
+    font-family: handly;
+    src: url(bradley_hand_itc_tt_bold.ttf);
+}
+
+#foad-title {
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*index-budy*/
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-position {
+    padding: 30px 20px;
+}
+
+/*menu*/
+
+.menu-item {
+    margin-left: 20px;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-box {
+    padding: 0 50px;
+}
+
+.menu {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#contact-menue {
+    font-family: Sans-serif;
+    font-size: 22px;
+    font-weight: 30;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+#contact-menue:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#Portfolio-menue {
+    font-family: Sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+#Portfolio-menue:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.Portfolio-clicked {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#Home-menue {
+    font-family: Sans-serif;
+    font-size: 22px;
+    font-weight: 30;
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+#Home-menue:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+/*portfolio-budy*/
+
+#just-click-style {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 30;
+    font-family: Sans-serif;
+    margin-bottom: 100px;
+}
+
+#insta-box {
+    width: 338px;
+    height: 449px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#insta-box:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#link-box {
+    width: 338px;
+    height: 449px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#link-box:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#dribbble-box {
+    width: 338px;
+    height: 449px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#dribbble-box:hover {
+    background-color: rgb(238, 238, 238);
+}
+
 #vl {
     margin-top: 2px;
     margin-left: 90px;
@@ -58,20 +210,7 @@
     box-shadow: 0px 0px 36px -20px black;
 }
 
-#left-box {
-    margin-left: 100px;
-    margin-top: 75px;
-    width: 588px;
-    height: 917px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-
-#right-box {
-    float: right;
-    margin-right: 100px;
-    margin-top: -917px;
+#skills-box {
     width: 588px;
     height: 917px;
     background-color: white;
@@ -88,51 +227,6 @@
     box-shadow: 0px 0px 36px -20px black;
 }
 
-#insta-box {
-    margin-left: 100px;
-    margin-top: 75px;
-    width: 338px;
-    height: 449px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-
-#insta-box:hover {
-    background-color: rgb(238, 238, 238);
-}
-
-#link-box {
-    margin-left: 100px;
-    margin-top: 75px;
-    width: 338px;
-    height: 449px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-#link-box:hover {
-    background-color: rgb(238, 238, 238);
-}
-
-#dribbble-box {
-    margin-left: 100px;
-    margin-top: 75px;
-    width: 338px;
-    height: 449px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-#dribbble-box:hover {
-    background-color: rgb(238, 238, 238);
-}
-
-@font-face {
-    font-family: handly;
-    src: url(bradley_hand_itc_tt_bold.ttf);
-}
-
 #email-box {
     margin: auto;
     width: 589px;
@@ -141,8 +235,36 @@
     border-radius: 40px;
     box-shadow: 0px 0px 36px -20px black;
 }
+
 #email-box:hover {
     background-color: rgb(238, 238, 238);
 }
 
+.link-pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.link-position {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        flex-direction: column;
+    }
+    .skills-position {
+        padding: 30px 20px;
+    }
+    /*portfolio*/
+    .box-align {
+     flex-direction: column;
+     
+    }
+    .p-box {
+        padding: 20 20px;
+    }
+}
