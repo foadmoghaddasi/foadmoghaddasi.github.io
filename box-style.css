@@ -31,6 +31,11 @@
     border-radius: 40px;
     box-shadow: 0px 0px 36px -20px black;
 }
+#avatar {
+    float: right;
+    padding: 70px;
+    padding-right: 80px;
+}
 
 #cv-box {
     margin: auto;
@@ -334,37 +339,41 @@ button {
     /*home*/
     #foad-title {
         margin-top: -70px;
-        margin-left: 50px;
+        margin-left: 37px;
     }
     .skills {
         flex-direction: column;
     }
     .skills-position {
-        padding: 15px 20px;
+        padding: 15px 0px;
     }
     .menu {
         margin-top: 150px;
-        margin-left: -150px;
+        margin-left: -170px;
         display: flex;
         align-items: center;
     }
     .menu-item {
-        margin-left: 0px;
+        margin-left: 10px;
         display: inline-block;
-        padding-left: 50px;
+        padding-left: 30px;
     }
     #Home-menue {
         margin-right: 0px;
+        padding: 20px;
     }
     #box1 {
         margin: auto;
-        width: 422px;
+        width: 350px;
         height: 800px;
+    }
+    #avatar {
+        margin-left: 70px;
     }
     #foadmoghaddasi-inbox {
         margin-left: 47px;
-        padding-top: 135px;
-        font-size: 58px;
+        padding-top: 0px;
+        font-size: 40px;
     }
     #JuniorProductDesigner {
         margin-left: 47px;
@@ -377,7 +386,7 @@ button {
     }
     #me-box {
         margin-top: -90px;
-        width: 422px;
+        width: 350px;
         height: 840px;
     }
     #aboutme-me-box {
@@ -389,7 +398,7 @@ button {
         font-family: Sans-serif;
     }
     #skills-box {
-        width: 422px;
+        width: 350px;
         height: 750px;
     }
     #skills-title {
@@ -403,7 +412,7 @@ button {
         font-size: 22px;
     }
     #job-box {
-        width: 422px;
+        width: 350px;
         height: 430px;
     }
     #Latest-Experiences {
@@ -430,5 +439,24 @@ button {
         font-weight: 300;
         text-align: center;
         line-height: 50px;
+    }
+    #foad-title {
+        margin-top: none;
+        margin-left: 47px;
+        font-family: Sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        display: flex;
+    }
+    .link-pics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .link-position {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding: 0 10px;
     }
 }
