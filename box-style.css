@@ -23,12 +23,158 @@
     padding: 30px 20px;
 }
 
+#box1 {
+    margin: auto;
+    width: 1240px;
+    height: 422px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#cv-box {
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0px;
+}
+
+#foadmoghaddasi-inbox {
+    margin-left: 80px;
+    padding-top: 135px;
+    font-size: 62px;
+    font-family: Sans-serif;
+}
+
+#JuniorProductDesigner {
+    margin-left: 80px;
+    margin-top: -65px;
+    font-size: 31px;
+    font-weight: 100;
+    font-family: Sans-serif;
+}
+
+#cv-botton {
+    margin-left: 80px;
+    margin-top: -150px;
+    font-family: Sans-serif;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 31px;
+    border-radius: 17px;
+}
+
+.button:hover {
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+}
+
+#me-box {
+    margin: auto;
+    width: 1240px;
+    height: 513px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#aboutme-me-box {
+    margin-top: 150px;
+    font-size: 29px;
+    padding-left: 80px;
+    padding-top: 80px;
+    line-height: 42px;
+    font-family: Sans-serif;
+}
+
+#skills-box {
+    margin: auto;
+    width: 588px;
+    height: 850px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#skills-title {
+    font-size: 41px;
+    padding-top: 80px;
+    padding-left: 80px;
+    font-family: Sans-serif;
+}
+
+#skills-list {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 29px;
+    line-height: 70px;
+    font-family: Sans-serif;
+}
+
+#job-box {
+    margin: auto;
+    width: 1240px;
+    height: 372px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 36px -20px black;
+}
+
+#Latest-Experiences {
+    font-size: 41px;
+    padding: 80px;
+    font-family: Sans-serif;
+}
+
+#Exp-paragraph {
+    padding: 80px;
+    font-size: 29px;
+    line-height: 40px;
+    margin-top: -170px;
+    font-family: Sans-serif;
+}
+
+#jabama-logo {
+    float: right;
+    margin-right: 80px;
+    margin-top: -290px;
+}
+
+#for-more-info {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-family: Sans-serif;
+}
+
+#pls-read-cv {
+    text-decoration: wavy;
+    font-weight: bolder;
+}
+
 /*menu*/
 
 .menu-item {
     margin-left: 20px;
     display: inline-block;
     padding-left: 50px;
+}
+
+.menu {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .header {
@@ -42,14 +188,9 @@
     align-items: center;
     justify-content: center;
 }
+
 .p-box {
     padding: 0 50px;
-}
-
-.menu {
-    padding-top: 20px;
-    display: flex;
-    align-items: center;
 }
 
 #contact-menue {
@@ -157,76 +298,6 @@
     height: 50px;
 }
 
-#box1 {
-    margin: auto;
-    width: 1240px;
-    height: 422px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-
-#cv-box {
-    margin: auto;
-    background-color: black;
-    color: white;
-    border-radius: 17px;
-    text-align: center;
-    padding: 0px;
-}
-
-.button {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    font-size: 31px;
-    border-radius: 17px;
-}
-
-.button:hover {
-    background-color: rgb(58, 58, 58);
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    font-size: 31px;
-    border-radius: 17px;
-}
-
-#me-box {
-    margin: auto;
-    width: 1240px;
-    height: 513px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-
-#skills-box {
-    width: 588px;
-    height: 917px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-
-#job-box {
-    margin: auto;
-    width: 1240px;
-    height: 372px;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
-}
-
 #email-box {
     margin: auto;
     width: 589px;
@@ -253,18 +324,103 @@
 }
 
 @media only screen and (max-width: 600px) {
+    /*portfolio*/
+    .box-align {
+        flex-direction: column;
+    }
+    .p-box {
+        padding: 15 20px;
+    }
+    /*home*/
+    #foad-title {
+        margin-top: -70px;
+        margin-left: 50px;
+    }
     .skills {
         flex-direction: column;
     }
     .skills-position {
-        padding: 30px 20px;
+        padding: 15px 20px;
     }
-    /*portfolio*/
-    .box-align {
-     flex-direction: column;
-     
+    .menu {
+        margin-top: 150px;
+        margin-left: -150px;
+        display: flex;
+        align-items: center;
     }
-    .p-box {
-        padding: 20 20px;
+    #box1 {
+        margin: auto;
+        width: 422px;
+        height: 800px;
+    }
+    #foadmoghaddasi-inbox {
+        margin-left: 47px;
+        padding-top: 135px;
+        font-size: 58px;
+    }
+    #JuniorProductDesigner {
+        margin-left: 47px;
+        margin-top: -55px;
+        font-size: 28px;
+    }
+    #cv-botton {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    #me-box {
+        margin-top: -90px;
+        width: 422px;
+        height: 840px;
+    }
+    #aboutme-me-box {
+        font-size: 22px;
+        padding-left: 47px;
+        padding-top: 47px;
+        line-height: 40px;
+        padding-right: 47px;
+        font-family: Sans-serif;
+    }
+    #skills-box {
+        width: 422px;
+        height: 750px;
+    }
+    #skills-title {
+        font-size: 31px;
+        padding-top: 47px;
+        padding-left: 47px;
+    }
+    #skills-list {
+        margin-left: 47px;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    #job-box {
+        width: 422px;
+        height: 430px;
+    }
+    #Latest-Experiences {
+        font-size: 31px;
+        padding-top: 130px;
+        padding-left: 47px;
+    }
+    #Exp-paragraph {
+        padding-left: 47px;
+        padding-right: 47px;
+        font-size: 22px;
+        line-height: 40px;
+        margin-top: -170px;
+    }
+    #jabama-logo {
+        float: left;
+        margin-left: 47px;
+        margin-top: -430px;
+    }
+    #for-more-info {
+        margin-top: 50px;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 50px;
     }
 }
