@@ -365,13 +365,12 @@ button {
     padding: 50px;
     font-family: Sans-serif;
 }
-#copyright{
-    margin: auto;
+
+#copyright {
     text-align: center;
+    font-size: 18px;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-weight: 400;
-    font-family: 28px;
     color: black;
 }
 
@@ -397,7 +396,7 @@ button {
     .menu {
         margin-right: auto;
         margin-top: 150px;
-        margin-left: -158px;
+        margin-left: -180px;
         display: flex;
     }
     .menu-item {
@@ -408,6 +407,9 @@ button {
     #Home-menue {
         margin-right: 0px;
         padding: 20px;
+    }
+    #contact-menue {
+        margin-right: 0px;
     }
     #box1 {
         margin: auto;
