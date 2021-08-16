@@ -92,15 +92,19 @@ button {
     background-color: white;
     border-radius: 40px;
     box-shadow: 0px 0px 36px -20px black;
+    font-weight: 200;
 }
 
 #aboutme-me-box {
     margin-top: 150px;
     font-size: 29px;
+    font-weight: 200;
     padding-left: 80px;
     padding-top: 80px;
-    line-height: 42px;
+    padding-right: 70px;
+    line-height: 50px;
     font-family: Sans-serif;
+
 }
 
 #skills-box {
@@ -125,6 +129,7 @@ button {
     font-size: 29px;
     line-height: 70px;
     font-family: Sans-serif;
+    font-weight: 200;
 }
 
 #job-box {
@@ -148,6 +153,7 @@ button {
     line-height: 40px;
     margin-top: -170px;
     font-family: Sans-serif;
+    font-weight: 200;
 }
 
 #jabama-logo {
@@ -348,8 +354,9 @@ button {
         padding: 15px 0px;
     }
     .menu {
+        margin-right: auto;
         margin-top: 150px;
-        margin-left: -190px;
+        margin-left: -158px;
         display: flex;
     }
     .menu-item {
@@ -367,7 +374,8 @@ button {
         height: 800px;
     }
     #avatar {
-        margin-left: 70px;
+        margin-left: 0px;
+        padding: 50px;
     }
     #foadmoghaddasi-inbox {
         margin-left: 47px;
@@ -389,11 +397,12 @@ button {
         height: 840px;
     }
     #aboutme-me-box {
-        font-size: 22px;
+        font-size: 20px;
+        font-weight: 200;
         padding-left: 47px;
         padding-top: 47px;
         line-height: 40px;
-        padding-right: 47px;
+        padding-right: 37px;
         font-family: Sans-serif;
     }
     #skills-box {
@@ -412,16 +421,15 @@ button {
     }
     #job-box {
         width: 350px;
-        height: 430px;
+        height: 550px;
     }
     #Latest-Experiences {
         font-size: 31px;
-        padding-top: 130px;
         padding-left: 47px;
     }
     #Exp-paragraph {
         padding-left: 47px;
-        padding-right: 47px;
+        padding-right: 30px;
         font-size: 22px;
         line-height: 40px;
         margin-top: -170px;
@@ -429,7 +437,8 @@ button {
     #jabama-logo {
         float: left;
         margin-left: 47px;
-        margin-top: -430px;
+        margin-top: 56px;
+        margin-bottom: 30px;
     }
     #for-more-info {
         margin-top: 50px;
