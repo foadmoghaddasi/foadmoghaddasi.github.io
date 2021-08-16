@@ -329,7 +329,7 @@ button {
         flex-direction: column;
     }
     .p-box {
-        padding: 15 20px;
+        padding: 30px 20px;
     }
     /*home*/
     #foad-title {
@@ -347,6 +347,14 @@ button {
         margin-left: -150px;
         display: flex;
         align-items: center;
+    }
+    .menu-item {
+        margin-left: 0px;
+        display: inline-block;
+        padding-left: 50px;
+    }
+    #Home-menue {
+        margin-right: 0px;
     }
     #box1 {
         margin: auto;
