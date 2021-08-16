@@ -368,7 +368,8 @@ button {
 #copyright{
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-weight: 400;
     font-family: 28px;
     color: black;
