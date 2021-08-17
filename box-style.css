@@ -89,7 +89,7 @@ button {
 #me-box {
     margin: auto;
     width: 1240px;
-    height: 513px;
+    height: 533px;
     background-color: white;
     border-radius: 40px;
     box-shadow: 0px 0px 36px -20px black;
@@ -101,7 +101,7 @@ button {
     font-size: 29px;
     font-weight: 200;
     padding-left: 80px;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-right: 70px;
     line-height: 50px;
     font-family: Sans-serif;
@@ -457,7 +457,7 @@ button {
     #me-box {
         margin-top: -90px;
         width: 350px;
-        height: 840px;
+        height: 870px;
     }
     #aboutme-me-box {
         font-size: 20px;
@@ -467,7 +467,6 @@ button {
         line-height: 40px;
         padding-right: 37px;
         font-family: Sans-serif;
-        text-align: justify;
     }
     #skills-box {
         width: 350px;
