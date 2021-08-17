@@ -372,6 +372,7 @@ button {
     padding-top: 50px;
     padding-bottom: 50px;
     color: black;
+    line-height: 38px;
 }
 #email-icon{
     text-align: center;
