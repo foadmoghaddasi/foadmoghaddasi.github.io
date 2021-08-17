@@ -150,7 +150,7 @@ button {
 #Exp-paragraph {
     padding: 80px;
     font-size: 29px;
-    line-height: 40px;
+    line-height: 50px;
     margin-top: -170px;
     font-family: Sans-serif;
     font-weight: 200;
@@ -167,6 +167,7 @@ button {
     font-weight: 300;
     text-align: center;
     font-family: Sans-serif;
+    line-height: 60px;
 }
 
 #pls-read-cv {
@@ -460,7 +461,7 @@ button {
     }
     #aboutme-me-box {
         font-size: 20px;
-        font-weight: 200;
+        font-weight: 300px;
         padding-left: 47px;
         padding-top: 47px;
         line-height: 40px;
@@ -469,7 +470,7 @@ button {
     }
     #skills-box {
         width: 350px;
-        height: 750px;
+        height: 600px;
     }
     #skills-title {
         font-size: 31px;
@@ -480,6 +481,7 @@ button {
         margin-left: 47px;
         margin-top: 20px;
         font-size: 22px;
+        line-height: 50px;
     }
     #job-box {
         width: 350px;
