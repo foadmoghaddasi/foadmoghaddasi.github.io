@@ -467,6 +467,7 @@ button {
         line-height: 40px;
         padding-right: 37px;
         font-family: Sans-serif;
+        text-align: justify;
     }
     #skills-box {
         width: 350px;
