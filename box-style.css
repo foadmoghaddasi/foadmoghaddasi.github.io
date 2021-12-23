@@ -449,11 +449,16 @@ button {
         padding-left: 30px;
     }
     #Home-menue {
+        font-size: 12pt;
         margin-right: 0px;
         padding: 20px;
     }
     #contact-menue {
+        font-size: 12pt;
         margin-right: 0px;
+    }
+    #Portfolio-menue {
+        font-size: 12pt;
     }
     #box1 {
         margin: auto;
