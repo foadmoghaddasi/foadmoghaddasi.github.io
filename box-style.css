@@ -210,7 +210,7 @@ button {
 
 #contact-menue {
     background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
-    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -3px -3px 20px 5px white;
     border-radius: 20px;
     font-family: Sans-serif;
     font-size: 22px;
@@ -230,7 +230,7 @@ button {
 
 #Portfolio-menue {
     background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
-    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -3px -3px 20px 5px white;
     border-radius: 20px;
     font-family: Sans-serif;
     font-size: 22px;
@@ -255,7 +255,7 @@ button {
 
 #Home-menue {
     background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
-    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -3px -3px 20px 5px white;
     border-radius: 20px;
     font-family: Sans-serif;
     font-size: 22px;
