@@ -444,7 +444,7 @@ button {
         display: flex;
     }
     .menu-item {
-        margin-left: 1px;
+        margin-left: 10px;
         display: inline-block;
         padding-left: 30px;
     }
