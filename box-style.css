@@ -27,9 +27,10 @@
     margin: auto;
     width: 1240px;
     height: 422px;
-    background-color: white;
+    background-color: #E3E6EC;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
+    
 }
 
 #avatar {
@@ -49,14 +50,14 @@
 
 #foadmoghaddasi-inbox {
     margin-left: 80px;
-    padding-top: 135px;
+    padding-top: 120px;
     font-size: 62px;
     font-family: Sans-serif;
 }
 
 #JuniorProductDesigner {
     margin-left: 80px;
-    margin-top: -65px;
+    margin-top: -75px;
     font-size: 31px;
     font-weight: 100;
     font-family: Sans-serif;
@@ -64,14 +65,15 @@
 
 #cv-botton {
     margin-left: 80px;
-    margin-top: -150px;
+    font-size: 21px;
     font-family: Sans-serif;
 }
 
 button {
-    background-color: black;
+    background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
     border: none;
-    color: white;
+    color: #909c9e;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -82,17 +84,18 @@ button {
 }
 
 .button:hover {
-    background-color: rgb(58, 58, 58);
-    color: rgb(255, 255, 255);
+    box-shadow: inset 2px 2px 10px 0px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
 }
 
 #me-box {
     margin: auto;
     width: 1240px;
     height: 505px;
-    background-color: white;
+    background-color: #E3E6EC;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
     font-weight: 200;
 }
 
@@ -111,9 +114,9 @@ button {
     margin: auto;
     width: 588px;
     height: 850px;
-    background-color: white;
+    background-color: #E3E6EC;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
 }
 
 #skills-title {
@@ -136,9 +139,9 @@ button {
     margin: auto;
     width: 1240px;
     height: 372px;
-    background-color: white;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    background-color: #E3E6EC;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
 }
 
 #Latest-Experiences {
@@ -206,6 +209,9 @@ button {
 }
 
 #contact-menue {
+    background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
+    border-radius: 20px;
     font-family: Sans-serif;
     font-size: 22px;
     font-weight: 30;
@@ -216,12 +222,16 @@ button {
 }
 
 #contact-menue:hover {
-    background-color: black;
-    color: white;
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
     border-radius: 20px;
 }
 
 #Portfolio-menue {
+    background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
+    border-radius: 20px;
     font-family: Sans-serif;
     font-size: 22px;
     text-decoration: none;
@@ -230,18 +240,23 @@ button {
 }
 
 #Portfolio-menue:hover {
-    background-color: black;
-    color: white;
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
     border-radius: 20px;
 }
 
 .Portfolio-clicked {
-    background-color: black;
-    color: white;
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
     border-radius: 20px;
 }
 
 #Home-menue {
+    background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
+    border-radius: 20px;
     font-family: Sans-serif;
     font-size: 22px;
     font-weight: 30;
@@ -251,8 +266,9 @@ button {
 }
 
 #Home-menue:hover {
-    background-color: black;
-    color: white;
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
     border-radius: 20px;
 }
 
@@ -270,37 +286,43 @@ button {
 #insta-box {
     width: 338px;
     height: 449px;
-    background-color: white;
+    background-color: #E3E6EC;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
 }
 
 #insta-box:hover {
-    background-color: rgb(238, 238, 238);
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
 }
 
 #link-box {
     width: 338px;
     height: 449px;
-    background-color: white;
+    background-color: #E3E6EC;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
 }
 
 #link-box:hover {
-    background-color: rgb(238, 238, 238);
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
 }
 
 #dribbble-box {
     width: 338px;
     height: 449px;
-    background-color: white;
+    background-color: #E3E6EC;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
 }
 
 #dribbble-box:hover {
-    background-color: rgb(238, 238, 238);
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
 }
 
 #vl {
@@ -314,13 +336,15 @@ button {
     margin: auto;
     width: 589px;
     height: 141px;
-    background-color: white;
     border-radius: 40px;
-    box-shadow: 0px 0px 36px -20px black;
+    background-color: #E3E6EC;
+    box-shadow: 5px 5px 35px 8px #D1D9E9, -17px -17px 35px 0px white;
 }
 
 #email-box:hover {
-    background-color: rgb(238, 238, 238);
+    box-shadow: inset 0px 0px 10px 5px #D1D9E9;
+    background-color:#E3E6EC;
+    color: #b1b8b9;
 }
 
 .link-pics {
