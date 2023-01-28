@@ -247,6 +247,7 @@ body{
 }
 .service-box-item{
     background: #211e39;
+    height: 280px;
     border: 1px solid transparent;
     padding:40px 36px;
     border-radius: 20px;
@@ -623,7 +624,7 @@ body{
           transform: rotate(0deg);
       }
       100% {
-          transform: rotate(170deg);
+          transform: rotate(140deg);
       }
   }
 
@@ -632,7 +633,7 @@ body{
           transform: rotate(0deg);
       }
       100% {
-          transform: rotate(150deg);
+          transform: rotate(80deg);
       }
   }
   @keyframes fourPercentage {
@@ -640,7 +641,7 @@ body{
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(140deg);
+        transform: rotate(65deg);
     }
 }
 
