@@ -334,7 +334,13 @@ body{
 .portfolio-body-con{
     overflow: hidden;
 }
-
+.dribbble-btn{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
 .filterDiv {
     float: left;
     width: 100px;
@@ -373,11 +379,12 @@ body{
       padding: 0 15px;
 }
 .portfolio-img-con .filterDiv:nth-child(2){
-      margin-bottom: 13px;
+      margin-bottom: 7px;
 }
 .portfolio-img-con .filterDiv:nth-child(2),
 .portfolio-img-con .filterDiv:nth-child(3),
 .portfolio-img-con .filterDiv:nth-child(4),
+.portfolio-img-con .filterDiv:nth-child(5),
 .portfolio-img-con .filterDiv:last-child{
     width: 33.33333%;
     padding: 0 15px;
@@ -416,8 +423,8 @@ body{
 }
 .portfolio-img figure:after{
     content: "";
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.0032387955182072714) 0%, rgba(17,19,43,0.6755077030812324) 70%); 
+    /* background: rgb(0,0,0); */
+    /* background: linear-gradient(180deg, rgba(0,0,0,0.0032387955182072714) 0%, rgba(17,19,43,0.6755077030812324) 70%);  */
     position: absolute;
     top: 0;
     border-radius: 19px;
